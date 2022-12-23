@@ -1,0 +1,75 @@
+body {
+    background-color: #eaeaea;
+}
+
+.bg {
+    background-color: white;
+    padding: 10px;
+}
+
+.bg h1 {
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(13, 202, 240);
+}
+
+a:hover {
+    color: gray;
+}
+
+.btn:hover {
+    background-color: rgb(13, 202, 240);
+    color: white;
+}
+
+
+/* Style Halaman Login In */
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin button {
+    background-color: rgb(13, 202, 240);
+    color: white;
+}
+
+.form-signin button:hover {
+    background-color: white;
+    color: rgb(13, 202, 240);
+}
+
+.form-registration input{
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+.form-registration button {
+    background-color: rgb(13, 202, 240);
+    color: white;
+}
+
+.form-registration button:hover {
+    background-color: white;
+    color: rgb(13, 202, 240);
+}
+
+.form-registration .form-floating:focus-within {
+    z-index: 2;
+}
